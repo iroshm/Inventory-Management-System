@@ -8,4 +8,5 @@ import in.irosh.Inventory.Management.System.entity.BookCategory;
 @RepositoryRestResource(collectionResourceRel = "bookCategory", path = "book-categoty")
 public interface BookCategoryRepository extends JpaRepository<BookCategory, Long>{
 
+	
 }
